@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F15E25D1DC393A200B4762D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15E25C1DC393A200B4762D /* AppDelegate.swift */; };
+		3F15E25F1DC393A200B4762D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15E25E1DC393A200B4762D /* ViewController.swift */; };
+		3F15E2621DC393A200B4762D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F15E2601DC393A200B4762D /* Main.storyboard */; };
+		3F15E2641DC393A200B4762D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F15E2631DC393A200B4762D /* Assets.xcassets */; };
+		3F15E2671DC393A200B4762D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F15E2651DC393A200B4762D /* LaunchScreen.storyboard */; };
+		3F15E2721DC393A200B4762D /* BarringtonWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15E2711DC393A200B4762D /* BarringtonWeatherTests.swift */; };
+		3F15E27D1DC393A200B4762D /* BarringtonWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15E27C1DC393A200B4762D /* BarringtonWeatherUITests.swift */; };
+		3F2603481E23E943008AC34B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2603471E23E943008AC34B /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F15E26E1DC393A200B4762D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F15E2511DC393A100B4762D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F15E2581DC393A100B4762D;
+			remoteInfo = BarringtonWeather;
+		};
+		3F15E2791DC393A200B4762D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F15E2511DC393A100B4762D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F15E2581DC393A100B4762D;
+			remoteInfo = BarringtonWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F15E2591DC393A100B4762D /* BarringtonWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarringtonWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F15E25C1DC393A200B4762D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F15E25E1DC393A200B4762D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F15E2611DC393A200B4762D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F15E2631DC393A200B4762D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F15E2661DC393A200B4762D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F15E2681DC393A200B4762D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F15E26D1DC393A200B4762D /* BarringtonWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarringtonWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F15E2711DC393A200B4762D /* BarringtonWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarringtonWeatherTests.swift; sourceTree = "<group>"; };
+		3F15E2731DC393A200B4762D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F15E2781DC393A200B4762D /* BarringtonWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarringtonWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F15E27C1DC393A200B4762D /* BarringtonWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarringtonWeatherUITests.swift; sourceTree = "<group>"; };
+		3F15E27E1DC393A200B4762D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2603471E23E943008AC34B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F15E2561DC393A100B4762D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F15E26A1DC393A200B4762D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F15E2751DC393A200B4762D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F15E2501DC393A100B4762D = {
+			isa = PBXGroup;
+			children = (
+				3F15E25B1DC393A200B4762D /* BarringtonWeather */,
+				3F15E2701DC393A200B4762D /* BarringtonWeatherTests */,
+				3F15E27B1DC393A200B4762D /* BarringtonWeatherUITests */,
+				3F15E25A1DC393A100B4762D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F15E25A1DC393A100B4762D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F15E2591DC393A100B4762D /* BarringtonWeather.app */,
+				3F15E26D1DC393A200B4762D /* BarringtonWeatherTests.xctest */,
+				3F15E2781DC393A200B4762D /* BarringtonWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F15E25B1DC393A200B4762D /* BarringtonWeather */ = {
+			isa = PBXGroup;
+			children = (
+				3F15E25C1DC393A200B4762D /* AppDelegate.swift */,
+				3F15E25E1DC393A200B4762D /* ViewController.swift */,
+				3F15E2601DC393A200B4762D /* Main.storyboard */,
+				3F15E2631DC393A200B4762D /* Assets.xcassets */,
+				3F15E2651DC393A200B4762D /* LaunchScreen.storyboard */,
+				3F15E2681DC393A200B4762D /* Info.plist */,
+				3F2603471E23E943008AC34B /* SwiftyJSON.swift */,
+			);
+			path = BarringtonWeather;
+			sourceTree = "<group>";
+		};
+		3F15E2701DC393A200B4762D /* BarringtonWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F15E2711DC393A200B4762D /* BarringtonWeatherTests.swift */,
+				3F15E2731DC393A200B4762D /* Info.plist */,
+			);
+			path = BarringtonWeatherTests;
+			sourceTree = "<group>";
+		};
+		3F15E27B1DC393A200B4762D /* BarringtonWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F15E27C1DC393A200B4762D /* BarringtonWeatherUITests.swift */,
+				3F15E27E1DC393A200B4762D /* Info.plist */,
+			);
+			path = BarringtonWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F15E2581DC393A100B4762D /* BarringtonWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F15E2811DC393A200B4762D /* Build configuration list for PBXNativeTarget "BarringtonWeather" */;
+			buildPhases = (
+				3F15E2551DC393A100B4762D /* Sources */,
+				3F15E2561DC393A100B4762D /* Frameworks */,
+				3F15E2571DC393A100B4762D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarringtonWeather;
+			productName = BarringtonWeather;
+			productReference = 3F15E2591DC393A100B4762D /* BarringtonWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F15E26C1DC393A200B4762D /* BarringtonWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F15E2841DC393A200B4762D /* Build configuration list for PBXNativeTarget "BarringtonWeatherTests" */;
+			buildPhases = (
+				3F15E2691DC393A200B4762D /* Sources */,
+				3F15E26A1DC393A200B4762D /* Frameworks */,
+				3F15E26B1DC393A200B4762D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F15E26F1DC393A200B4762D /* PBXTargetDependency */,
+			);
+			name = BarringtonWeatherTests;
+			productName = BarringtonWeatherTests;
+			productReference = 3F15E26D1DC393A200B4762D /* BarringtonWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F15E2771DC393A200B4762D /* BarringtonWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F15E2871DC393A200B4762D /* Build configuration list for PBXNativeTarget "BarringtonWeatherUITests" */;
+			buildPhases = (
+				3F15E2741DC393A200B4762D /* Sources */,
+				3F15E2751DC393A200B4762D /* Frameworks */,
+				3F15E2761DC393A200B4762D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F15E27A1DC393A200B4762D /* PBXTargetDependency */,
+			);
+			name = BarringtonWeatherUITests;
+			productName = BarringtonWeatherUITests;
+			productReference = 3F15E2781DC393A200B4762D /* BarringtonWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F15E2511DC393A100B4762D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JScharm;
+				TargetAttributes = {
+					3F15E2581DC393A100B4762D = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+					};
+					3F15E26C1DC393A200B4762D = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 3F15E2581DC393A100B4762D;
+					};
+					3F15E2771DC393A200B4762D = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 3F15E2581DC393A100B4762D;
+					};
+				};
+			};
+			buildConfigurationList = 3F15E2541DC393A100B4762D /* Build configuration list for PBXProject "BarringtonWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F15E2501DC393A100B4762D;
+			productRefGroup = 3F15E25A1DC393A100B4762D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F15E2581DC393A100B4762D /* BarringtonWeather */,
+				3F15E26C1DC393A200B4762D /* BarringtonWeatherTests */,
+				3F15E2771DC393A200B4762D /* BarringtonWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F15E2571DC393A100B4762D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F15E2671DC393A200B4762D /* LaunchScreen.storyboard in Resources */,
+				3F15E2641DC393A200B4762D /* Assets.xcassets in Resources */,
+				3F15E2621DC393A200B4762D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F15E26B1DC393A200B4762D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F15E2761DC393A200B4762D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F15E2551DC393A100B4762D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2603481E23E943008AC34B /* SwiftyJSON.swift in Sources */,
+				3F15E25F1DC393A200B4762D /* ViewController.swift in Sources */,
+				3F15E25D1DC393A200B4762D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F15E2691DC393A200B4762D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F15E2721DC393A200B4762D /* BarringtonWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F15E2741DC393A200B4762D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F15E27D1DC393A200B4762D /* BarringtonWeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F15E26F1DC393A200B4762D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F15E2581DC393A100B4762D /* BarringtonWeather */;
+			targetProxy = 3F15E26E1DC393A200B4762D /* PBXContainerItemProxy */;
+		};
+		3F15E27A1DC393A200B4762D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F15E2581DC393A100B4762D /* BarringtonWeather */;
+			targetProxy = 3F15E2791DC393A200B4762D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F15E2601DC393A200B4762D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F15E2611DC393A200B4762D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F15E2651DC393A200B4762D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F15E2661DC393A200B4762D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F15E27F1DC393A200B4762D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F15E2801DC393A200B4762D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F15E2821DC393A200B4762D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarringtonWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JScharm.BarringtonWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F15E2831DC393A200B4762D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarringtonWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JScharm.BarringtonWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F15E2851DC393A200B4762D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarringtonWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JScharm.BarringtonWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarringtonWeather.app/BarringtonWeather";
+			};
+			name = Debug;
+		};
+		3F15E2861DC393A200B4762D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarringtonWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JScharm.BarringtonWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarringtonWeather.app/BarringtonWeather";
+			};
+			name = Release;
+		};
+		3F15E2881DC393A200B4762D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BarringtonWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JScharm.BarringtonWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BarringtonWeather;
+			};
+			name = Debug;
+		};
+		3F15E2891DC393A200B4762D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BarringtonWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JScharm.BarringtonWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BarringtonWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F15E2541DC393A100B4762D /* Build configuration list for PBXProject "BarringtonWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F15E27F1DC393A200B4762D /* Debug */,
+				3F15E2801DC393A200B4762D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F15E2811DC393A200B4762D /* Build configuration list for PBXNativeTarget "BarringtonWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F15E2821DC393A200B4762D /* Debug */,
+				3F15E2831DC393A200B4762D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F15E2841DC393A200B4762D /* Build configuration list for PBXNativeTarget "BarringtonWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F15E2851DC393A200B4762D /* Debug */,
+				3F15E2861DC393A200B4762D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F15E2871DC393A200B4762D /* Build configuration list for PBXNativeTarget "BarringtonWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F15E2881DC393A200B4762D /* Debug */,
+				3F15E2891DC393A200B4762D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F15E2511DC393A100B4762D /* Project object */;
+}
